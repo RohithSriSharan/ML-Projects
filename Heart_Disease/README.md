@@ -20,7 +20,7 @@ Given patient data such as BMI, age, smoking habits, and health indicators, the 
 - Model Building:
   - Logistic Regression
   - Random Forest
-  - Decision Tree
+ 
 - Performance Metrics:
   - Accuracy, Precision, Recall, F1-Score
   - Confusion Matrix
