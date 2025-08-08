@@ -69,5 +69,5 @@ This project applies machine learning models to predict the likelihood of heart 
 
 ---
 
-## 📁 Project Structure
+
 
