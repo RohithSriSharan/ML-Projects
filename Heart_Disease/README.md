@@ -2,7 +2,7 @@
 
 This project applies machine learning models to predict the likelihood of heart disease based on patient health and lifestyle attributes. It includes preprocessing, exploratory data analysis, and evaluation of multiple classification algorithms under class imbalance conditions.
 
-## 📊 Dataset Overview
+##  Dataset Overview
 
 - **Total Records:** 319,795
 - **Target Variable:** `HeartDisease` (`Yes` / `No`)
@@ -15,7 +15,7 @@ This project applies machine learning models to predict the likelihood of heart 
 
 ---
 
-## 🔍 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 ### Categorical Features vs Heart Disease
 - Strong associations observed with: `Stroke`, `DiffWalking`, `GenHealth`, `KidneyDisease`
@@ -33,7 +33,7 @@ This project applies machine learning models to predict the likelihood of heart 
 
 ---
 
-## 🧪 Preprocessing Steps
+##  Preprocessing Steps
 
 - **Target Encoding:** `Yes` = 1, `No` = 0
 - **One-Hot Encoding:** For all categorical variables
@@ -44,27 +44,27 @@ This project applies machine learning models to predict the likelihood of heart 
 
 ---
 
-## 🧠 Models Trained & Evaluated
+##  Models Trained & Evaluated
 
 | Metric                     | Logistic Regression<br>(Balanced) | Random Forest | Random Forest + SMOTE |
 |----------------------------|----------------------------------|----------------|------------------------|
 | **Accuracy**               | 74.89%                           | 90.15%         | 88.13%                 |
 | **Precision (Class 1)**    | 0.22                             | 0.30           | 0.27                   |
-| **Recall (Class 1)**       | **0.77 ✅**                      | 0.11           | 0.22                   |
-| **F1-Score (Class 1)**     | **0.35 ✅**                      | 0.16           | 0.24                   |
-| **False Negatives**        | **1,233 ✅**                     | 4,857          | 4,276                  |
+| **Recall (Class 1)**       | **0.77**                      | 0.11           | 0.22                   |
+| **F1-Score (Class 1)**     | **0.35**                      | 0.16           | 0.24                   |
+| **False Negatives**        | **1,233**                     | 4,857          | 4,276                  |
 | **True Positives**         | 4,242                            | 618            | 1,199                  |
 
 ---
 
-## 📌 Conclusion
+### Conclusion
 
 - **Best Model for Recall / Sensitivity:**  
-  ✔️ Logistic Regression (`class_weight='balanced'`)  
+  ✔ Logistic Regression (`class_weight='balanced'`)  
   Ideal for **healthcare scenarios** where detecting heart disease is critical.
 
 - **Best Model for Overall Accuracy:**  
-  ⚠️ Random Forest  
+   Random Forest  
   High accuracy but **misses too many positive cases** (low recall).
 
 ---
