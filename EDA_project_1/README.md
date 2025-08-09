@@ -82,5 +82,3 @@ This analysis provides actionable insights into restaurant performance in Bangal
 
 ---
 
-
-   cd ML-Projects/EDA_project_1
