@@ -1,1 +1,4 @@
 ".ipynb_checkpoints/" 
+".ipynb_checkpoints/" 
+"**/.ipynb_checkpoints/" 
+"EDA_project_1/data/*"   # if you keep raw data in a data/ folder
