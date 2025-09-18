@@ -2,3 +2,11 @@
 ".ipynb_checkpoints/" 
 "**/.ipynb_checkpoints/" 
 "EDA_project_1/data/*"   # if you keep raw data in a data/ folder
+# Ignore all notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore any data folder inside any project
+**/data/*
+
+# If you want to keep metadata files but not raw data
+!**/data/*.md

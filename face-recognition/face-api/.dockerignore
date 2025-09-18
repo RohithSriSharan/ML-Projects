@@ -1,0 +1,17 @@
+# Virtual environment
+.venv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# MacOS system files
+*.DS_Store
+
+# General cache
+.cache
+
+# Git files (optional, no need inside image)
+.git
+.gitignore
